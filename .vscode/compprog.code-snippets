@@ -1,0 +1,67 @@
+{
+	// Place your cp workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	{
+
+		"cpp snippets": 
+		   { 
+			   "prefix" : "compprog", 
+						  "body" : [ 
+						   "#pragma GCC optimize (3)",
+						   "#pragma GCC optimize (\"Ofast\")",
+						   "#include<bits/stdc++.h>",
+						   "using namespace std;",
+						   "#define ll long long",
+						   "#define endl '\\n'",
+						   "#define fIO freopen(\"input.in\",\"r\",stdin), freopen(\"input.out\",\"w\",stdout)", 
+						   "#define io ios::sync_with_stdio(false),cin.tie(0),cout.tie(0)",
+						   "#define all(a) a.begin(),a.end()",
+						   "#define pii pair<int, int>",
+						   "#define pll pair<ll, ll>",
+						   "#define F first",
+						   "#define S second",
+						   "#define pb push_back",
+						   "#define ins insert",
+						   "const int N = 1e5 + 10;",
+						   "const int mod = 998244353;",
+						   "inline int ls(int x) { return x << 1; }",
+						   "inline int rs(int x) { return x << 1 | 1; }",
+						   "int lowbit(int x) { return x & -x; }",
+						   "int dx[8] = { 1,0,0,-1,-1,-1,1,1 };",
+						   "int dy[8] = { 0,-1,1,0,-1,1,-1,1};",
+						   "/---------------------------------------Code begins----------------------------------------/",
+						   "void solve()",
+						   "{",
+						   "\t$1",
+						   "}",
+						   "signed main()",
+						   "{",
+						   "\tio;",
+						   "\t//fIO;"
+						   "\tll tt=1;",
+						   "\tcin >> tt;",
+						   "\twhile(tt--)",
+						   "\t{",
+						   "\t\tsolve();",
+						   "\t}",
+						   "\treturn 0;",
+						   "}"
+						  ], 
+								   "description" : "to produce the main snippet for cpp"
+		   } 
+	   }
+}
