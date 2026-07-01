@@ -20,22 +20,11 @@
 
 using ll = long long;
 using namespace std;
-
+void func(){
+   cout<<"hello"<<endl;
+}
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(NULL);
-    ll t;
-    cin>>t;
-    while(t--){
-       ll n;
-       cin>>n;
-       vector<ll> arr(n);
-       for(int i=0;i<n;i++){
-          cin>>arr[i];
-       }
-     }
-
-    
-
+    std::thread t1(func);
+    t1.join();
     return 0;
 }
