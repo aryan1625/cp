@@ -88,6 +88,8 @@ void solve()
 
         }
         sum+=max(abs(a1[i2]-b1[i1]),abs(a1[i2]-b1[j1]));
+        sum++;
+        sum--;
         cout<<sum<<'\n';
     
 }
